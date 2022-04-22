@@ -2,17 +2,13 @@ import { Typography, Button, Card, CardActions, CardContent, CardMedia } from '@
 import useStyles from './styles';
 
 
-const CartItem = ({ item, onUpdateCartQty, onRemoveFromCart }) => {
+const CartItem = ({ item, handleUpdateCartQty, handleRemoveFromCart }) => {
 
     const { id, name, line_total, quantity, image } = item;
     const { formatted_with_symbol } = line_total;
     const { url } = image;
 
     const classes = useStyles();
-
-
-    const handleUpdateCartQty = (lineItemId, newQuantity) => onUpdateCartQty(lineItemId, newQuantity);
-    const handleRemoveFromCart = (lineItemId) => onRemoveFromCart(lineItemId);
 
 
     return (
