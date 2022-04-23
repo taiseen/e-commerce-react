@@ -12,13 +12,9 @@ const Product = ({ onAddToCart, product }) => {
     const { formatted_with_symbol } = price;
     const { url } = image;
 
-    // console.log(id, name, description, price, image)
-    // console.log(formatted_with_symbol)
-    // console.log(url)
-    // console.log(product)
-
     const classes = useStyles();
 
+    
     return (
         <Card className={classes.root} >
 
