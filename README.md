@@ -1,12 +1,15 @@
 02 Mar 2022 <br />
 22 Apr 2022 ==> restart after - 1 month  20 days
 
-# e-Commerce React App | [Live Link]()
+# e-Commerce | React + Material UI | [Live Link](https://e-commerce-js-app.netlify.app)
 
 ## For backend, use [commercejs.com](https://commercejs.com)
-## For using this `commercejs` as a backend, need an `API Key`
+## For payment, use [stripe](https://stripe.com)
 
-<br />
+`API Key` is needed for using - `commercejs` as a backend
+
+`API Key` is needed for using - `stripe` as a payment system
+
 
 ## Installable Packages || Needful Dependencies
 
